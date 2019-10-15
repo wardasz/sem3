@@ -36,18 +36,20 @@ namespace grafy1
             {
                 switch (menu())
                 {
-                    case 49:
+                    case "1":
                         wypisz(maciez);
                         break;
-                    case 50:
+                    case "2":
                         pazyste(maciez);
+                        break;
+                    case "0":
+                        Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Zła liczba");
                         break;
                 }
             }
-            Console.ReadKey();
         }
 
         static void pazyste(List<List<int>> maciez)
@@ -86,14 +88,14 @@ namespace grafy1
             }
         }
 
-        static int menu()
+        static string menu()
         {
+            Console.WriteLine("");
             Console.WriteLine("Co chcesz zrobić?");
             Console.WriteLine("1-wypisz graf");
             Console.WriteLine("2-sprawdź ile wieszchołków jest parzystych a ile nie");
 
-            int x = Convert.ToInt32(Console.Read());
-            Console.WriteLine(x);
+            string x = Console.ReadLine();
             return x;
         }
     }
