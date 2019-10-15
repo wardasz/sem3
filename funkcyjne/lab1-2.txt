@@ -1,0 +1,54 @@
+komenda do kompilacji: :l main
+
+zad 3
+mniejsza a b = do
+  if a<b then True
+  else False
+
+wieksza a b = do mniejsza b a
+
+rowna a b = do 
+  if ((mniejsza a b)==False)&&((mniejsza b a)==False)
+  then True
+  else False
+
+nierowna a b = do
+  not (rowna a b)
+
+wiekszaRowna a b = do
+  if ((rowna a b)==True)||((wieksza a b)==True)
+  then True
+  else False
+
+mniejszaRowna a b = do
+  if ((rowna a b)==True)||((mniejsza a b)==True)
+  then True
+  else False
+  
+zad 4
+parzysta a = do
+  if a==0 then True  
+  else nieparzysta (a-1)
+
+nieparzysta a = do
+  if a==0  then False
+  else parzysta (a-1)
+  
+  
+  zad 7
+a) rekurencyjnie
+fibReku a = do
+  if a==0 
+    then 0 
+    else if a==1 
+      then 1
+      else ((fibReku (a-1)) + (fibReku (a-2)))
+
+b) iteracyjnie
+fibIta a = do 
+  fib 0 1 1 a
+
+fib male duze aktualna szczyt = do
+  if aktualna==szczyt
+	then duze
+	else fib duze (male+duze) (aktualna+1) szczyt
