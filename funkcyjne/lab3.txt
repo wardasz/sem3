@@ -1,0 +1,9 @@
+zad 9
+lancz [] a = a 
+lancz (x:xs) a = x:lancz xs a
+
+czyW [] a = False
+czyW (x:xs) a =
+  if(a==x)
+    then True
+    else czyW xs a

@@ -240,14 +240,34 @@ namespace grafy1
 
         static void wypisz(List<List<int>> maciez)
         {
+            int ile = maciez.Count;
+            string szczyt = "  | ";
+            string linia = "--+";
+            for (int x=1; x<=ile; x++)
+            {
+                szczyt += x;
+                if (x < 10) szczyt += " ";
+                szczyt += " ";
+                linia += "---";
+            }
+            Console.WriteLine(szczyt);
+            Console.WriteLine(linia);
+
+
+            int licznik = 1;
             foreach(List<int> zad in maciez)
             {
-                Console.Write("[");
+                string kolejna = licznik.ToString();
+                if (licznik < 10) kolejna += " ";
+                kolejna += "|";
                 foreach (int pole in zad)
                 {
-                    Console.Write(pole+" ");
+                    kolejna += " ";
+                    kolejna += pole.ToString();
+                    if (pole < 10) kolejna += " ";
                 }
-                Console.Write("]\n");
+                Console.WriteLine(kolejna);
+                licznik++;
             }
         }
 
