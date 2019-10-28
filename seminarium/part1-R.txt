@@ -1,0 +1,35 @@
+﻿//biblioteka
+install.packages("tm")
+library(tm)
+
+//podanie ścieżek dostępu
+wejscie <- 'D:/studia/magisterka/sem3/seminarium/wejscie.txt'
+wyjscie <- 'D:/studia/magisterka/sem3/seminarium/oczyszczony.txt'
+//wersja laptop
+wejscie <- 'D:/studia/sem3/seminarium/wejscie.txt'
+wyjscie <- 'D:/studia/sem3/seminarium/oczyszczony.txt'
+
+//zassanie tekstu
+tekst <- readChar(wejscie, file.info(wejscie)$size)
+
+//wypisanie tekstu
+writeLines(as.character(tekst))
+
+//obróbka
+tekst <- removePunctuation(tekst)
+tekst <- removeNumbers(tekst)
+tekst <- tolower(tekst)
+
+//zapisanie tekstu do pliku
+write(tekst, wyjscie)
+
+
+
+
+
+//wersja do skopiowania (szybka obróbka)
+tekst <- readChar(wejscie, file.info(wejscie)$size)
+tekst <- removePunctuation(tekst)
+tekst <- removeNumbers(tekst)
+tekst <- tolower(tekst)
+write(tekst, wyjscie)
