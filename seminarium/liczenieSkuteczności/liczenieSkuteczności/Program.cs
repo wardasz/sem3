@@ -7,8 +7,8 @@ namespace liczenieSkuteczności
     class Program
     {
 
-        public static String adresTekst = "D:\\studia\\magisterka\\sem3\\seminarium\\oczyszczony.txt";    //pc
-        //public static String adresTekst = "D:\\studia\\sem3\\seminarium\\oczyszczony.txt";                  //laptop
+        //public static String adresTekst = "D:\\studia\\magisterka\\sem3\\seminarium\\oczyszczony.txt";    //pc
+        public static String adresTekst = "D:\\studia\\sem3\\seminarium\\oczyszczony.txt";                  //laptop
 
         static void Main(string[] args)
         {
@@ -17,8 +17,8 @@ namespace liczenieSkuteczności
 
             var s = new FileInfo(Directory.GetCurrentDirectory());
             var s2 = s.Directory.Parent.Parent;
-            //String sciezka = s2.ToString() + "\\wikipedia.csv";
-            String sciezka = s2.ToString() + "\\discord.csv";
+            String sciezka = s2.ToString() + "\\wikipedia.csv";
+            //String sciezka = s2.ToString() + "\\discord.csv";
 
             using (var reader = new StreamReader(sciezka))
             {
@@ -65,7 +65,7 @@ namespace liczenieSkuteczności
 
             Console.WriteLine("Tekst zawierał " + ileZnakow + " znaków, z czego " + ileInnych + " nie zostało rozpoznanych.");
             Console.WriteLine("W normalnych warunkach rozpoznane znaki zostały by zapisane na " + dlugoscNorma + " bitach, w wersji skróconej na " + dlugoscKrotka + ".");
-            Console.WriteLine("Dzięki konwersji ta liczba spadła do " + dlugoscHuffman + " znaków.");
+            Console.WriteLine("Dzięki konwersji ta liczba spadła do " + dlugoscHuffman + " bitów.");
             Console.WriteLine("Liczba ta stanowi odpowiednio " + procentNorma + " i " + procentKrotka + " procent poprzedniego wyniku.");
 
             Console.ReadKey();

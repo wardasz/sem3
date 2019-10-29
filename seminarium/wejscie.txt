@@ -1,24 +1,86 @@
-Kiedy ju¿ wszystkie kobiety
-z transportu ogolono
-czterech robotników miot³ami
-zrobionymi z lipy zamiata³o
-i gromadzi³o w³osy
+Statystyki
 
-Pod czystymi szybami
-le¿¹ sztywne w³osy uduszonych
-w komorach gazowych
-w tych w³osach s¹ szpilki
-i koœciane grzebienie
+Miêdzynarodowa Agencja Badañ nad Rakiem szacuje, ¿e na œwiecie w 2008 na nowotwory zachorowa³o 12,7 mln osób, a 7,5 mln zmar³o w wyniku choroby nowotworowej. W Europie co roku chorobê nowotworow¹ rozpoznaje siê u 1,7 mln osób, a oko³o 965 tysiêcy ludzi umiera z jej powodu. W Polsce rocznie notuje siê w przybli¿eniu 150 tysiêcy zachorowañ i 90 tysiêcy zgonów spowodowanych rakiem. Statystyki pokazuj¹ wiêc, ¿e nowotwory stanowi¹ powa¿ny problem zdrowotny i spo³eczny[1].
+Cechy komórki nowotworowej
 
-Nie przeœwietla ich œwiat³o
-nie rozdziela wiatr
-nie dotyka ich d³oñ
-ani deszcz ani usta
+Za cechy odró¿niaj¹ce komórki nowotworowe od komórek „normalnych” przyjmuje siê:
 
-W wielkich skrzyniach
-k³êbi¹ siê suche w³osy
-uduszonych
-i szary warkoczyk
-mysi ogonek ze wst¹¿eczk¹
-za który poci¹gaj¹ w szkole
-niegrzeczni ch³opcy.
+    nieograniczony potencja³ replikacyjny
+    wytwarzanie w³asnych czynników wzrostowych
+    niewra¿liwoœæ na zewnêtrzne czynniki hamuj¹ce wzrost
+    zak³ócenie mechanizmów apoptotycznych
+    zdolnoœæ tworzenia przerzutów nowotworowych i do angiogenezy (tworzenia w³asnej sieci naczyñ krwionoœnych)
+    „ucieczkê” spod nadzoru immunologicznego
+    metaboliczne przeprogramowanie podczas hipoksji
+    indukowanie stanu zapalnego
+    genomow¹ niestabilnoœæ[2][3].
+
+Mechanizmy immunologiczne obrony przeciwnowotworowej
+
+Do mechanizmów immunologicznych obrony przeciwnowotworowej nale¿¹ miêdzy innymi:
+
+    cytotoksycznoœæ komórkowa zale¿na od przeciwcia³[4]
+    cytotoksycznoœæ limfocytów Tc[4]
+    cytotoksycznoœæ pobudzonych neutrofilów i makrofagów[4]
+    aktywnoœæ cytokin (w tym interleukin, interferonów, chemokin, nadrodziny TNF)[4]
+    cytotoksycznoœæ przeciwcia³ zale¿na od dope³niacza[4]
+
+Etapy kancerogenezy
+
+    dzia³anie czynników rakotwórczych
+    mutacja
+    intensywne mitozy zmienionych komórek
+    przerastanie zdrowych tkanek
+    angiogeneza
+    migracja
+    tworzenie przerzutów nowotworowych
+
+Rodzaje nowotworów
+
+    nowotwór ³agodny (neoplasma benignum)
+    nowotwór z³oœliwy (neoplasma malignum)
+    nowotwór miejscowo z³oœliwy
+
+Inna klasyfikacja – oparta na zale¿noœci od rodzaju tkanki, z jakiej wywodz¹ siê nowotwory – dzieli je na dwa typy[5]:
+
+    nab³onkowy – zlokalizowany w nab³onku, czyli tkance, która m.in. wyœciela przewód pokarmowy i bierze udzia³ we wch³anianiu pokarmów, tworzy tzw. nab³onek wydzielniczy (gruczo³owy), transportuje i wydziela hormony, pot, œlinê i inne substancje albo przesuwa na zewn¹trz za pomoc¹ wypustek ruchowych (rzêsek) drobiny dostaj¹ce siê do uk³adu oddechowego. Nowotwory nab³onkowe niez³oœliwe to przyk³adowo gruczolak, brodawczak, torbielak – w zale¿noœci od typu nab³onka, z którego wywodzi siê zmiana. Dla z³oœliwych nowotworów nab³onkowych wprowadzono pojêcie raka, które dotyczy tylko tej grupy chorób. Jego nazwê tworzy siê od rodzaju nab³onka macierzystego (rak gruczo³owy, rak p³askonab³onkowy i wiele innych).
+    nienab³onkowy – w przypadku ³agodnych nowotworów nienab³onkowych nazwy jednostek chorobowych tworzy siê przez przekszta³cenie nazwy tkanki, z której wywodz¹ siê nowotwory, na przyk³ad miêœniak, t³uszczak. W przypadku zmian z³oœliwych u¿ywa siê s³owa miêsak: miêsak naczyniowy (naczyniakomiêsak), miêsak t³uszczakowy (t³uszczakomiêsak) i tym podobne. Inne wa¿ne typy nowotworów nienab³onkowych to czerniak (nowotwór wywodz¹cy siê z komórek barwnikowych), ch³oniaki (nowotwór z³oœliwy uk³adu ch³onnego), bia³aczka (bior¹ca pocz¹tek z komórek krwiotwórczych, znajduj¹cych siê w szpiku kostnym)[6].
+
+Diagnostyka
+
+Niektóre z badañ maj¹cych znaczenie w rozpoznawaniu chorób nowotworowych:
+
+    ultrasonografia
+    tomografia komputerowa
+    obrazowanie metod¹ rezonansu magnetycznego
+    pozytonowa tomografia emisyjna
+    mammografia
+    tomografia emisyjna pojedynczych fotonów
+    badanie histopatologiczne
+    badanie cytologiczne.
+
+Leczenie
+
+W leczeniu stosuje siê:
+
+    metody miejscowe:
+        radioterapiê
+        leczenie chirurgiczne
+    metody ogólnoustrojowe:
+        chemioterapiê
+        hormonoterapiê
+        terapiê biologiczn¹ (immunoterapiê, inhibitory angiogenezy i czynniki wzrostu, terapiê genow¹).
+
+Leczenie skojarzone
+
+Nowotwór mo¿e byæ chorob¹ ogólnoustrojow¹ (to znaczy dotykaj¹c¹ wiele tkanek i narz¹dów lub zajmuj¹c¹ ca³e cia³o)[7] w chwili rozpoznania, mimo braku klinicznych cech rozsiewu[8]. Z tego wzglêdu obecnie w onkologii dominuje koncepcja leczenia skojarzonego. Obejmuje ono – w ró¿nych sekwencjach – chirurgiê, radioterapiê i metody ogólnoustrojowe. Przemawia za nim:
+
+    wspó³dzia³anie przestrzenne przez miejscowe niszczenie guza pierwotnego i ogólnoustrojow¹ eliminacjê hipotetycznych, odleg³ych ognisk nowotworu
+    dzia³anie promieniouczulaj¹ce (dotyczy skojarzenia chemioterapii i radioterapii) niektórych leków cytostatycznych, co podnosi skutecznoœæ promieniowania jonizuj¹cego
+    niezale¿ne niszczenie z natury heterogennych nowotworów – przy niepodatnoœci na jedno oddzia³ywanie skuteczn¹ mo¿e okazaæ siê druga metoda[9].
+
+Psychoonkologia
+
+W terapii onkologicznej nale¿y równie¿ braæ pod uwagê procesy psychologiczne zachodz¹ce u pacjenta w zwi¹zku z chorob¹. £agodzeniu lub usuwaniu psychologicznych nastêpstw diagnozy oraz poszczególnych etapów choroby u pacjenta i jego rodziny s³u¿y psychoonkologia[10]. Pomaga ona pacjentom rozeznaæ, nazwaæ i zaakceptowaæ pojawiaj¹ce siê u nich emocje oraz opanowaæ towarzysz¹cy chorobie stres. Nastawienie psychiczne odgrywa istotn¹ rolê w procesie zdrowienia. Z naukowego punktu widzenia pozytywne emocje oddzia³uj¹ bezpoœrednio na uk³ad odpornoœciowy. Informacja o prze¿ywanych uczuciach jest bowiem wysy³ana z uk³adu limbicznego mózgu – za poœrednictwem impulsów elektrycznych, neuroprzekaŸników i hormonów – do tych czêœci uk³adu odpornoœciowego, gdzie powstaj¹ i dojrzewaj¹ limfocyty[11]. W ramach psychoonkologii prowadzona jest te¿ psychoedukacja chorych i personelu medycznego celem zbudowania w³aœciwej relacji lekarz-pacjent w toku leczenia.
+Dietoterapia
+Zgodnie z danymi amerykañskiego Narodowego Instytutu Raka, 20–40% chorych umiera z przyczyn zwi¹zanych z niedo¿ywieniem, a nie z powodu choroby nowotworowej, a u 80% pacjentów z chorob¹ nowotworow¹ rozwija siê niedo¿ywienie[12]. Niedo¿ywienie nasila proces wyniszczenia nowotworowego (kacheksji). który charakteryzuj¹ce siê przewlek³ym procesem zapalnym, prowadzi do nasilenia procesu glukoneogenezy w w¹trobie. Resynteza glukozy nastêpuje z mleczanów wydzielanych przez komórki guza, glicerolu powsta³ego z rozpadu kwasów t³uszczowych oraz alaniny powsta³ej z rozpadu tkanki miêœniowej[13]. Glukoneogeneza jest procesem energoch³onnym i przyczynia siê do wyniszczenia nowotworowego. St¹d zabiegi dietoterapeutyczne u pacjentów onkologicznych mog¹ przynieœæ pozytywne efekty u osób, u których nie stwierdzono kacheksji. Natomiast dobry ogólny stan pacjenta zwiêksza te¿ szansê powodzenia leczenia chirurgicznego[14]. Prowadzone s¹ równie¿ badania nad zwi¹zkiem diety z rozwojem i hamowaniem choroby nowotworowej. Wykazano, ¿e hiperglikemia poposi³kowa, czyli wysokie stê¿enie wolnej glukozy we krwi po posi³ku, wp³ywa w sposób znacz¹cy na wzrost i proliferacjê komórek nowotworowych[15], które czerpi¹ energiê z wêglowodanów. Przedmiotem analiz jest mo¿liwoœci poddawania pacjentów onkologicznych diecie niskowêglowodanowej, a zw³aszcza diecie ketogennej. 

@@ -1,0 +1,19 @@
+komenda do kompilacji: :l main
+
+zad 12
+mojfold funkcja obiekt [] = obiekt
+mojfold funkcja obiekt (x:xs) = 
+  funkcja x (mojfold funkcja obiekt xs)
+  
+zad 13
+a) produkcja a = foldl (*) 1 a
+
+b) dlugosc a = foldl incr 0 a
+incr a b = a+1
+
+c) iBool a = foldl (&&) True a
+
+e) kasuj a = foldr (\x l -> if x==a then l else x:l) []
+
+g) odwroc a = foldl (\ x y -> y:x) [] a
+
