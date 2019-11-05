@@ -37,6 +37,10 @@ dz x (y:ys) l1 l2 =
       then dz x ys l1 (y:l2)
       else dz x ys l1 l2
 
+g)
+przetwoz f (x:[]) = [f x]
+przetwoz f (x:xs) = lancz [f x] (przetwoz f xs)
+
 
 
 	
