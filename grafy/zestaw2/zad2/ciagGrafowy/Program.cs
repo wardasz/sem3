@@ -84,6 +84,20 @@ namespace ciagGrafowy
                 wierzcholki.Add(nowy);
             }
 
+            int suma = 0;
+            foreach(wierzcholek w in wierzcholki)
+            {
+                suma += w.dajStopien();
+            }
+            int krawendzie = suma / 2;
+            int wenzly = wierzcholki.Count;
+            if (wenzly != (krawendzie + 1))
+            {
+                Console.WriteLine("Podana macierz reprezentuje graf, który nie jest acykliczny");
+                Console.ReadKey();
+                return;
+            }
+
             while(wierzcholki.Count > 2)
             {
                 foreach (wierzcholek w in wierzcholki)
