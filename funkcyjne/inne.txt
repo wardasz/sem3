@@ -1,0 +1,4 @@
+nwd a b =
+  if((mod a b) == 0) 
+    then b
+    else nwd b (mod a b)

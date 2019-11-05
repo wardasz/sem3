@@ -1,19 +1,41 @@
 komenda do kompilacji: :l main
 
 zad 9
+a)
 lancz [] a = a 
 lancz (x:xs) a = x:lancz xs a
 
+b)
 czyW [] a = False
 czyW (x:xs) a =
   if(a==x)
     then True
     else czyW xs a
     
+c)
 odwroc [] = []
 odwroc (x:xs) = lancz (odwroc xs) [x]
 
+d)
+ostatni (x:[]) = x
+ostatni (x:xs) = last xs
 
+e)
+kasuj x [] = []
+kasuj x (y:ys) = 
+  if x==y then ys
+  else (lancz [y] (kasuj x ys))
+
+f) BŁĘDNE!!!
+dziel x l = dz x l [] []
+
+dz x [] l1 l2 = (l1,l2)
+dz x (y:ys) l1 l2 = 
+  if x<y 
+    then dz x ys (y:l1) l2
+    else if x>y 
+      then dz x ys l1 (y:l2)
+      else dz x ys l1 l2
 
 
 
