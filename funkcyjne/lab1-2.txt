@@ -1,5 +1,14 @@
 komenda do kompilacji: :l main
 
+zad 2
+nwd a b =
+  if((mod a b) == 0) 
+    then b
+    else nwd b (mod a b)
+
+nww a b = 
+  div (a * b) (nwd a b)
+
 zad 3
 mniejsza a b = do
   if a<b then True
@@ -34,8 +43,23 @@ nieparzysta a = do
   if a==0  then False
   else parzysta (a-1)
   
+zad 5
+toSamo f1 f2 a b =
+  if((f1 a b)==(f2 a b)) 
+    then True
+    else False
+    
+zad 6
+kwad a b c = let liczby = [] in if d < 0 then liczby else
+               if a == 0 then [- c / b] : liczby
+                 else [x,y] : liczby 
+                  where
+                   e = - b / (2 * a)
+                   x = e + sqrt d / (2 * a)
+                   y = e - sqrt d / (2 * a)
+                   d = b * b - 4 * a * c
   
-  zad 7
+zad 7
 a) rekurencyjnie
 fibReku a = do
   if a==0 

@@ -23,7 +23,7 @@ ostatni (x:xs) = last xs
 e)
 kasuj x [] = []
 kasuj x (y:ys) = 
-  if x==y then ys
+  if x==y then kasuj x ys
   else (lancz [y] (kasuj x ys))
 
 f) BŁĘDNE!!!
