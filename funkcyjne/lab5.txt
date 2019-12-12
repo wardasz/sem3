@@ -1,0 +1,19 @@
+komenda do kompilacji: :l main
+
+zad 20
+
+zad 21
+a)
+pozycja lista zmienna = poz lista zmienna 0
+
+poz (x:xs) zmienna numer =
+  if x==zmienna 
+    then Just numer
+    else poz xs zmienna (numer+1)
+
+poz [] zmienna numer = Nothing
+
+b)
+kasuj (x:xs) 1 = Just xs
+kasuj (x:xs) ile = kasuj xs (ile-1)
+kasuj [] ile = Nothing

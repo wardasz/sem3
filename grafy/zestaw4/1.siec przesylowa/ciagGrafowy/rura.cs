@@ -10,6 +10,7 @@ namespace ciagGrafowy
         private string DO;
         private int przepustowosc;
         private int przeplyw;
+        private bool czyOdwiedzony;
 
         public rura(string a, string b, int c)
         {
@@ -17,6 +18,7 @@ namespace ciagGrafowy
             DO = b;
             przepustowosc = c;
             przeplyw = 0;
+            czyOdwiedzony = false;
         }
 
         public string skad()

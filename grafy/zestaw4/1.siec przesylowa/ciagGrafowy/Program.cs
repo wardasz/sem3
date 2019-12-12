@@ -10,7 +10,6 @@ namespace ciagGrafowy
         static void Main(string[] args)
         {
             List<rura> siec = new List<rura>();
-            List<rura> przekroj = new List<rura>();
 
             var s = new FileInfo(Directory.GetCurrentDirectory());
             var s2 = s.Directory.Parent.Parent;
@@ -38,9 +37,7 @@ namespace ciagGrafowy
 
             while (true)
             {
-                List<rura> rezywualna = zrobSiecRezywualna(siec);
-                rura przekrojowa=null;
-                
+                List<rura> rezywualna = zrobSiecRezywualna(siec);                
                 List<string> sciezkaPowiekszajaca = BFS(rezywualna);
                 if (sciezkaPowiekszajaca == null)
                 {
@@ -66,7 +63,6 @@ namespace ciagGrafowy
                             if (maksimum == -1)
                             {
                                 maksimum = r.wolnyPrzeplyw();
-                                przekrojowa = r;
                                 break;
                             }
                             else
@@ -74,8 +70,6 @@ namespace ciagGrafowy
                                 if (r.wolnyPrzeplyw() < maksimum)
                                 {
                                     maksimum = r.wolnyPrzeplyw();
-                                    przekrojowa = r;
-                                    
                                 }
                                 break;
                             }
@@ -118,7 +112,6 @@ namespace ciagGrafowy
                         }
                     }
                 }
-                przekroj.Add(przekrojowa);
                 max += maksimum;
             }
 
@@ -130,13 +123,26 @@ namespace ciagGrafowy
             else
             {
                 Console.WriteLine("Sieć nie ma ścieżki ze źródła do ujścia");
+                Console.ReadKey();
+                return;
             }
             Console.WriteLine();
-            Console.WriteLine("Minimalny przekrój:");
-            foreach(rura r in przekroj)
+
+            List<rura> rezywualna2 = zrobSiecRezywualna(siec);
+            List<string> zrodlowe = BFS2(rezywualna2);
+            List<string> ujsciowe = znajdzReszte(siec, zrodlowe);
+
+            List<rura> rozciecie = new List<rura>();
+            foreach(rura r in siec)
+            {
+                if (czyNaLiscie(zrodlowe, r.skad()) == true && czyNaLiscie(ujsciowe, r.dokad()) == true) rozciecie.Add(r);
+            }
+            Console.WriteLine("Minimalny przekroj:");
+            foreach(rura r in rozciecie)
             {
                 r.napisz();
             }
+
             Console.ReadKey();
         }
 
@@ -213,6 +219,50 @@ namespace ciagGrafowy
                     sciezki = sciezkiNowe;
                 }
             }  
+        }
+
+        public static bool czyNaLiscie(List<string> lista, string element)
+        {
+            foreach(string s in lista)
+            {
+                if (s == element) return true;
+            }
+            return false;
+        }
+
+        public static List<string> BFS2(List<rura> lista)
+        {
+            List<string> rozwiazanie = new List<string>();
+            List<string> stos = new List<string>();
+            stos.Add("z");
+            rozwiazanie.Add("z");
+            string obecny;
+            while (stos.Count > 0)
+            {
+                obecny = stos.ElementAt(0);
+                foreach (rura r in lista)
+                {
+                    if (r.skad() == obecny && czyNaLiscie(rozwiazanie, r.dokad())==false)
+                    {
+                        stos.Add(r.dokad());
+                        rozwiazanie.Add(r.dokad());
+                    }
+                }
+                stos.Remove(obecny);
+            }
+            return rozwiazanie;
+        }
+
+        public static List<string> znajdzReszte(List<rura> lista, List<string> odciecie){
+            List<string> rozwiazanie = new List<string>();
+            foreach(rura r in lista)
+            {
+                string a = r.dokad();
+                string b = r.skad();
+                if (czyNaLiscie(odciecie, a) == false && czyNaLiscie(rozwiazanie, a) == false) rozwiazanie.Add(a);
+                if (czyNaLiscie(odciecie, b) == false && czyNaLiscie(rozwiazanie, b) == false) rozwiazanie.Add(b);
+            }
+            return rozwiazanie;
         }
 
     }
