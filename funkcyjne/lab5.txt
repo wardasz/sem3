@@ -1,6 +1,9 @@
 komenda do kompilacji: :l main
 
 zad 20
+sum2 f1 f2 l1 l2 = (f1 l1) + (f2 l2)
+wywołanie funkcji:
+sum length length [1,2] ['a','b']
 
 zad 21
 a)
@@ -17,3 +20,6 @@ b)
 kasuj (x:xs) 1 = Just xs
 kasuj (x:xs) ile = kasuj xs (ile-1)
 kasuj [] ile = Nothing
+
+zad 22 (dziwne próby puki co)
+
