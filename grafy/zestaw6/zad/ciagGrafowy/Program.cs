@@ -95,7 +95,11 @@ namespace ciagGrafowy
             while (wierzcholki.Count > 0)
             {
                 int a = euler.Last();
-                List<int> sasiedzi = wybierzWierzcholek(wierzcholki, a).dajSasiadow();
+                List<int> sasiedzi = new List<int>();
+                foreach(int i in wybierzWierzcholek(wierzcholki, a).dajSasiadow())
+                {
+                    sasiedzi.Add(i);
+                }
                 foreach(int b in sasiedzi)
                 {
                     usunKrawedz(wierzcholki, a, b);
@@ -118,11 +122,6 @@ namespace ciagGrafowy
                 wynik += ", ";
             }
             Console.WriteLine(wynik);
-
-
-
-
-
             Console.ReadKey();
         }
 
@@ -162,6 +161,7 @@ namespace ciagGrafowy
         public static bool czySpojny(List<wierzcholek> lista)
         {
             if (lista.Count == 0) return true;
+            if (lista.Count != 0 && wybierzWierzcholek(lista, 1) == null) return false;
 
             List<int> kolejka = new List<int>();
             List<int> zbadane = new List<int>();
